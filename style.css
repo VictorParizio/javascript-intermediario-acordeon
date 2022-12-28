@@ -14,8 +14,6 @@ body {
 
 .card img {
     position: absolute;
-    height: 293px;
-    width: 278px;
     top: 33px;
     left: -90px;
 }
@@ -32,6 +30,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    cursor: pointer;
+}
+
+.item .pergunta:hover {
+    color: #f47c57;
 }
 
 .card .faq .item .pergunta::after {
@@ -41,7 +44,6 @@ body {
     width: 15px;
     height: 15px;
     padding: 0 10px;
-    cursor: pointer;
 }
 
 .card .faq .item:not(:first-child) {
@@ -55,12 +57,4 @@ body {
     max-width: 347px;
     display: none;
     padding-bottom: 15px;
-}
-
-.card .faq .item.ativo .resposta {
-    display: block;
-}
-
-.card .faq .item.ativo .pergunta::after {
-    background: url(imagens/icone-seta-aberta.png) no-repeat;
 }

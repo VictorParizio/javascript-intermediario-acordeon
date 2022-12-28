@@ -1,0 +1,11 @@
+.card .faq .item.ativo h2 {
+    font-weight: 700;
+}
+
+.card .faq .item.ativo .resposta {
+    display: block;
+}
+
+.card .faq .item.ativo .pergunta::after {
+    background: url(imagens/icone-seta-aberta.png) no-repeat;
+}
