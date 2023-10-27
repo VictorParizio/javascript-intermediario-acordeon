@@ -7,5 +7,5 @@
 }
 
 .card .faq .item.ativo .pergunta::after {
-    background: url(imagens/icone-seta-aberta.png) no-repeat;
+    background: url(../images/icone-seta-aberta.png) no-repeat;
 }

@@ -40,7 +40,7 @@ body {
 .card .faq .item .pergunta::after {
     display: inline-block;
     content: '';
-    background: url(imagens/icone-seta-fechada.png) no-repeat;
+    background: url(../images/icone-seta-fechada.png) no-repeat;
     width: 15px;
     height: 15px;
     padding: 0 10px;
